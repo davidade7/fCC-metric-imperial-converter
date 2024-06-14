@@ -18,6 +18,7 @@ suite('Functional Tests', function() {
         // Execute
         chai
             .request(server)
+            .keepOpen()
             .get('/api/convert')
             .query({ input })
             .end(function(err, res) {
@@ -39,6 +40,7 @@ suite('Functional Tests', function() {
         // Execute
         chai
             .request(server)
+            .keepOpen()
             .get('/api/convert')
             .query({ input })
             .end(function(err, res) {
@@ -55,6 +57,7 @@ suite('Functional Tests', function() {
         // Execute
         chai
             .request(server)
+            .keepOpen()
             .get('/api/convert')
             .query({ input })
             .end(function(err, res) {
@@ -71,6 +74,7 @@ suite('Functional Tests', function() {
         // Execute
         chai
             .request(server)
+            .keepOpen()
             .get('/api/convert')
             .query({ input })
             .end(function(err, res) {
@@ -91,6 +95,7 @@ suite('Functional Tests', function() {
         // Execute
         chai
             .request(server)
+            .keepOpen()
             .get('/api/convert')
             .query({ input })
             .end(function(err, res) {
